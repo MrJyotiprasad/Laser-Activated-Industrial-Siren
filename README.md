@@ -254,7 +254,7 @@ Laser-Based-Industrial-Siren-System
 # 📥 Clone This Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Laser-Based-Industrial-Siren-System.git
+https://github.com/MrJyotiprasad/Laser-Activated-Industrial-Siren.git
 ```
 
 ---
