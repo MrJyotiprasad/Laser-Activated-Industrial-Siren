@@ -27,4 +27,4 @@ An Arduino-based industrial siren control system with OLED graphical interface, 
 
 ## Developed By
 
-Addonix Technologies
+Mr Jyotiprasad
