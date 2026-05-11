@@ -1,7 +1,7 @@
 # 🚨 Laser Based Industrial Siren System
 
 <p align="center">
-  <img src="/banner.jpg" width="100%">
+  <img src="/banner.png" width="100%">
 </p>
 
 <p align="center">
