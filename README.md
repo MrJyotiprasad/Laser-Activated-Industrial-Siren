@@ -1,69 +1,86 @@
-# Laser Based Industrial Siren System
+# 🚨 Laser Based Industrial Siren System
 
-An advanced Arduino-based industrial safety siren controller designed for laser-triggered motion/event detection with a modern OLED graphical interface, configurable siren delay timing, real-time countdown monitoring, and professional embedded UI animations.
+<p align="center">
+  <img src="/banner.jpg" width="100%">
+</p>
 
----
+<p align="center">
 
-# Table of Contents
+![Platform](https://img.shields.io/badge/Platform-Arduino-blue?style=for-the-badge)
+![Display](https://img.shields.io/badge/Display-SSD1306-black?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Stable-success?style=for-the-badge)
 
-- [Introduction](#introduction)
-- [Features](#features)
-- [Hardware Used](#hardware-used)
-- [Software Used](#software-used)
-- [Pin Configuration](#pin-configuration)
-- [Working Principle](#working-principle)
-- [OLED User Interface](#oled-user-interface)
-- [Project Structure](#project-structure)
-- [Clone This Repository](#clone-this-repository)
-- [Applications](#applications)
-- [Future Improvements](#future-improvements)
-- [License](#license)
-- [Developed By](#developed-by)
+</p>
+
+<p align="center">
+  <b>Industrial Laser Triggered Smart Siren Controller with OLED Animated User Interface</b>
+</p>
 
 ---
 
-# Introduction
+# 📑 Table of Contents
 
-The **Laser Based Industrial Siren System** is an embedded industrial safety and automation project developed using Arduino and SSD1306 OLED display technology.
+- [📖 Introduction](#-introduction)
+- [✨ Features](#-features)
+- [🛠 Hardware Used](#-hardware-used)
+- [💻 Software Used](#-software-used)
+- [🔌 Pin Configuration](#-pin-configuration)
+- [⚙ Working Principle](#-working-principle)
+- [🎨 OLED User Interface](#-oled-user-interface)
+- [🎬 Demo Videos](#-demo-videos)
+- [🖼 Project Images](#-project-images)
+- [📂 Project Structure](#-project-structure)
+- [📥 Clone This Repository](#-clone-this-repository)
+- [🏭 Applications](#-applications)
+- [🚀 Future Improvements](#-future-improvements)
+- [📜 License](#-license)
+- [👨‍💻 Developed By](#-developed-by)
+
+---
+
+# 📖 Introduction
+
+The **Laser Based Industrial Siren System** is a professional embedded industrial safety and automation project developed using Arduino and SSD1306 OLED display technology.
 
 The system is designed to detect motion or laser interruption events and activate an industrial siren after a configurable delay period. The delay duration can be adjusted in real-time using an analog controller.
 
-A professional OLED graphical user interface provides:
+A modern OLED graphical interface provides:
 
-- Delay timer visualization
+- Real-time siren delay visualization
 - Motion detection popup
-- Countdown monitoring
-- Animated UI effects
-- Industrial-style dashboard interface
+- Animated countdown interface
+- Full-screen delay adjustment UI
+- Industrial dashboard-style display
 
-This project is suitable for:
+This project is ideal for:
 
-- Factory automation
+- Industrial automation
+- Factory safety systems
 - Restricted area monitoring
-- Industrial safety systems
-- Smart security barriers
-- Warehouse safety control
+- Smart laser security barriers
+- Warehouse protection systems
 
 ---
 
-# Features
+# ✨ Features
 
-- OLED Animated Interface
-- Adjustable Siren Delay Timer
-- Laser Trigger Detection
-- Countdown Popup Screen
-- Analog Delay Control
-- Boot Animation
-- Industrial UI Design
-- Smooth Analog Filtering
-- Stable Countdown System
-- Full Screen Delay Adjustment Popup
-- Automatic Siren Release
-- Professional Embedded UI
+- 🎨 OLED Animated Interface
+- ⏱ Adjustable Siren Delay Timer
+- 🚨 Laser Trigger Detection
+- 📟 Countdown Popup Screen
+- 🎛 Analog Delay Control
+- 🚀 Boot Animation
+- 🏭 Industrial UI Design
+- 📉 Smooth Analog Filtering
+- ⚡ Stable Countdown System
+- 🖥 Full Screen Delay Adjustment Popup
+- 🔊 Automatic Siren Release
+- 🧠 Embedded OOP Programming Architecture
 
 ---
 
-# Hardware Used
+# 🛠 Hardware Used
 
 | Component | Description |
 |---|---|
@@ -79,19 +96,19 @@ This project is suitable for:
 
 ---
 
-# Software Used
+# 💻 Software Used
 
 | Software | Purpose |
 |---|---|
-| Arduino IDE | Code development and upload |
+| Arduino IDE | Firmware development |
 | Adafruit GFX Library | Graphics rendering |
-| Adafruit SSD1306 Library | OLED driver |
+| Adafruit SSD1306 Library | OLED display driver |
 | Git | Version control |
 | GitHub | Project hosting |
 
 ---
 
-# Pin Configuration
+# 🔌 Pin Configuration
 
 | Device | Arduino Pin |
 |---|---|
@@ -103,11 +120,11 @@ This project is suitable for:
 
 ---
 
-# Working Principle
+# ⚙ Working Principle
 
 1. System powers ON
 2. Boot animation starts
-3. OLED enters standby screen
+3. OLED enters standby mode
 4. User adjusts siren delay using potentiometer
 5. OLED displays selected delay time
 6. Laser interruption triggers countdown
@@ -118,18 +135,19 @@ This project is suitable for:
 
 ---
 
-# OLED User Interface
+# 🎨 OLED User Interface
 
-## Normal Screen
+## 🏠 Normal Screen
 
 Displays:
-
 - System Ready Status
 - Motion Detection Status
 - Current Siren Delay Time
 - Sliding Website Branding
 
-## Delay Adjustment Popup
+---
+
+## ⏱ Delay Adjustment Popup
 
 Automatically appears when analog delay value changes:
 
@@ -138,7 +156,9 @@ Automatically appears when analog delay value changes:
 - Animated slider
 - Real-time delay preview
 
-## Countdown Popup
+---
+
+## 🚨 Countdown Popup
 
 During trigger event:
 
@@ -148,7 +168,53 @@ During trigger event:
 
 ---
 
-# Project Structure
+# 🎬 Demo Videos
+
+## 🚀 Boot Animation
+
+[![Boot Animation](Prototype/Images/boot.jpg)](Prototype/Video/boot.mp4)
+
+---
+
+## ⚙ Programming & UI Demo
+
+[![Programming Demo](Prototype/Images/home_Screen.jpg)](Prototype/Video/prograaming.mp4)
+
+---
+
+## 🚨 Trigger Detection Demo
+
+[![Trigger Demo](Prototype/Images/triggred.jpg)](Prototype/Video/trigger.mp4)
+
+---
+
+# 🖼 Project Images
+
+## 🚀 Boot Screen
+
+![Boot Screen](Prototype/Images/boot.jpg)
+
+---
+
+## 🏠 Home Screen
+
+![Home Screen](Prototype/Images/home_Screen.jpg)
+
+---
+
+## ⏱ Siren Delay Adjustment
+
+![Delay Adjustment](Prototype/Images/Siren_Delay_Time.jpg)
+
+---
+
+## 🚨 Trigger Detection Popup
+
+![Trigger Detection](Prototype/Images/triggred.jpg)
+
+---
+
+# 📂 Project Structure
 
 ```text
 Laser-Based-Industrial-Siren-System
@@ -158,17 +224,34 @@ Laser-Based-Industrial-Siren-System
 ├── boot.h
 ├── README.md
 ├── LICENSE
+│
+├── Prototype
+│   ├── Images
+│   │   ├── boot.jpg
+│   │   ├── home_Screen.jpg
+│   │   ├── Siren_Delay_Time.jpg
+│   │   └── triggred.jpg
+│   │
+│   └── Video
+│       ├── boot.mp4
+│       ├── prograaming.mp4
+│       └── trigger.mp4
+│
 ├── PCB
-│   └── pcb_design.pdf
-├── images
-│   ├── ui-preview.jpg
-│   ├── circuit-diagram.jpg
-│   └── hardware.jpg
+│   ├── 3PCB_Laser_Activated_Industrial_Siren.pdf
+│   └── compressed.mp4
+│
+├── Schematics
+│   ├── Laser_Activated_Industrial_Siren.png
+│   └── Circuit_Screenshot.png
+│
+└── Final_Design
+    └── coming_soon.txt
 ```
 
 ---
 
-# Clone This Repository
+# 📥 Clone This Repository
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/Laser-Based-Industrial-Siren-System.git
@@ -176,41 +259,45 @@ git clone https://github.com/YOUR_USERNAME/Laser-Based-Industrial-Siren-System.g
 
 ---
 
-# Applications
+# 🏭 Applications
 
 - Industrial Safety Systems
 - Smart Factory Automation
 - Laser Security Barrier
 - Restricted Area Monitoring
 - Warehouse Safety System
-- Staircase Siren System
 - Intrusion Detection System
 - Industrial Alarm Controller
+- Staircase Siren System
 
 ---
 
-# Future Improvements
+# 🚀 Future Improvements
 
 - RTC Integration
 - WiFi Monitoring
 - GSM Alert System
 - IoT Dashboard
-- EEPROM Setting Storage
+- EEPROM Settings Storage
 - Multi-zone Trigger System
 - Industrial Relay Expansion
 
 ---
 
-# License
+# 📜 License
 
 This project is licensed under the MIT License.
 
 ---
 
-# Developed By
+# 👨‍💻 Developed By
 
 ## Mr Jyotiprasad
 
 Embedded Systems Developer  
 Industrial Automation & Safety Systems  
 Arduino • IoT • Embedded UI Design • Industrial Electronics
+
+<p align="center">
+  ⭐ If you like this project, give it a star on GitHub ⭐
+</p>
